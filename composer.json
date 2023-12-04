@@ -1,18 +1,18 @@
 {
-    "name": "stephenjude/filament-blog",
+    "name": "lamine860/filament-blog",
     "description": "Filament Blog Builder",
     "keywords": [
-        "stephenjude",
+        "lamine860",
         "laravel",
         "filament-blog",
         "blog"
     ],
-    "homepage": "https://github.com/stephenjude/filament-blog",
+    "homepage": "https://github.com/lamine860/filament-blog",
     "license": "MIT",
     "authors": [
         {
-            "name": "stephenjude",
-            "email": "stephenjudesuccess@gmail.com",
+            "name": "Lamine Ramata",
+            "email": "mlamine860@gmail.com",
             "role": "Developer"
         }
     ],
@@ -40,13 +40,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Stephenjude\\FilamentBlog\\": "src"
+            "lamine860\\FilamentBlog\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Stephenjude\\FilamentBlog\\Tests\\": "tests",
-            "Stephenjude\\FilamentBlog\\Tests\\Database\\Factories\\": "tests/database/factories"
+            "lamine860\\FilamentBlog\\Tests\\": "tests",
+            "lamine860\\FilamentBlog\\Tests\\Database\\Factories\\": "tests/database/factories"
         }
     },
     "scripts": {
@@ -66,7 +66,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Stephenjude\\FilamentBlog\\BlogServiceProvider"
+                "lamine860\\FilamentBlog\\BlogServiceProvider"
             ]
         }
     },
