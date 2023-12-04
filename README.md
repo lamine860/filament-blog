@@ -26,7 +26,7 @@ Laravel: `10`
 You can install the package via composer:
 
 ```bash
-composer require stephenjude/filament-blog
+composer require lamine860/filament-blog
 
 php artisan filament-blog:install
 
