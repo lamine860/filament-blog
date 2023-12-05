@@ -66,7 +66,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "lamine860\\FilamentBlog\\BlogServiceProvider"
+                "Stephenjude\\FilamentBlog\\BlogServiceProvider"
             ]
         }
     },
