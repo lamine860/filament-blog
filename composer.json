@@ -40,13 +40,13 @@
     },
     "autoload": {
         "psr-4": {
-            "lamine860\\FilamentBlog\\": "src"
+            "Stephenjude\\FilamentBlog\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "lamine860\\FilamentBlog\\Tests\\": "tests",
-            "lamine860\\FilamentBlog\\Tests\\Database\\Factories\\": "tests/database/factories"
+            "Stephenjude\\FilamentBlog\\Tests\\": "tests",
+            "Stephenjude\\FilamentBlog\\Tests\\Database\\Factories\\": "tests/database/factories"
         }
     },
     "scripts": {
