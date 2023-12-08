@@ -90,13 +90,11 @@ class PostResource extends Resource
                                     ->required()
                                     ->email(),
                             ])
-                            ->searchable()
                             ->required(),
 
                         Forms\Components\Select::make('blog_category_id')
                             ->label(__('filament-blog::filament-blog.category'))
                             ->relationship(name: 'category', titleAttribute: 'name')
-                            ->searchable()
                             ->required(),
 
                         Forms\Components\DatePicker::make('published_at')
@@ -130,7 +128,7 @@ class PostResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('banner')
+                Tables\Columns\ImageColumn::make('banner_url')
                     ->label(__('filament-blog::filament-blog.banner'))
                     ->circular(),
                 Tables\Columns\TextColumn::make('title')

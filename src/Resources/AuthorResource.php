@@ -82,7 +82,7 @@ class AuthorResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('photo')
+                Tables\Columns\ImageColumn::make('photo_url')
                     ->label(__('filament-blog::filament-blog.photo'))
                     ->circular(),
                 Tables\Columns\TextColumn::make('name')
